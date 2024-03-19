@@ -1,0 +1,67 @@
+body {
+    background-image: url(a.png);
+    overflow-y: hidden;
+    margin-top: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body input {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 140px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 6px;
+    border: none;
+}
+body .hesapla {
+    position: absolute;
+    margin-top: 20px;
+    transform: translateX(-170%);
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+}
+body .esit {
+    font-size: 100px;
+    margin-left: 350px;
+    transform: translateY(-345%);
+}
+body .deger {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 335px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+body .title {
+    padding: 2rem;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body .clear {
+    position: absolute;
+    margin-left: 130.5px;
+    margin-top: 380px;
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(-20%);
+}
+body h6 {
+    position: absolute;
+    margin-top: 1px;
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+}
